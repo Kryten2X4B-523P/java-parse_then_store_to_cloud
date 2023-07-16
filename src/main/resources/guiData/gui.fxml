@@ -1,0 +1,21 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.*?>
+<VBox fx:controller="com.gui.Controller"
+      xmlns:fx="http://javafx.com/fxml" alignment="center"
+      spacing="8"
+      stylesheets="@styles.css"
+>
+
+    <Button text="vyber soubor" id="button_open" GridPane.rowIndex="0" GridPane.columnIndex="0"
+            onAction="#onButtonEvent" fx:id="chooseFile"
+    />
+    <Button text="nahrát na WEB" id="button_send" GridPane.rowIndex="1" GridPane.columnIndex="0"
+            onAction="#onButtonEvent" fx:id="uploadToWeb"
+    />
+    <Label fx:id="ourLabel" text="probíhá načítání excelu"/>
+    <ProgressBar fx:id="updateProgress" prefWidth="140.0" id="progress"/>
+
+
+</VBox>

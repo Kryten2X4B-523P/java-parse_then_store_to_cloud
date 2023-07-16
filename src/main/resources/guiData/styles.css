@@ -1,0 +1,20 @@
+#button_open {
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+    -fx-font-size: 15;
+    -fx-padding: 10 20 10 20;
+}
+
+#button_send {
+    -fx-font-weight: bold;
+    -fx-background-color: red;
+    -fx-text-fill: white;
+}
+
+#progress {
+    -fx-accent: orange;
+}
+
+#backgroundColor {
+    -fx-background-color: linear-gradient(to right bottom, #61D8DE, #E839F6);
+}
